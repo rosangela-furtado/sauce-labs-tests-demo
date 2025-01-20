@@ -10,3 +10,9 @@ Cypress.Commands.add('addProductToCart', () => {
   // Selecione um produto e clique no botão "Add to cart"
   cy.get('.inventory_item').first().find('button').click();
 });
+
+// Remover produto do carrinho
+Cypress.Commands.add('removeProductFromCart', () => {
+  // Clique no botão "Remove" no carrinho
+  cy.get('.cart_item').find('button').click();
+});
