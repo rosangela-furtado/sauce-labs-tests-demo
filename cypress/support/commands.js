@@ -16,3 +16,10 @@ Cypress.Commands.add('removeProductFromCart', () => {
   // Clique no botão "Remove" no carrinho
   cy.get('.cart_item').find('button').click();
 });
+
+Cypress.Commands.add('fillCheckoutForm', (firstName, lastName, zipCode) => {
+  cy.get('[data-test="firstName"]').type(firstName);
+  cy.get('[data-test="lastName"]').type(lastName);
+  cy.get('[data-test="postalCode"]').type(zipCode);
+  cy.get('[data-test="continue"]').click(); // Clique no botão para continuar
+});
