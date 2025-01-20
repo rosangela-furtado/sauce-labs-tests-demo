@@ -4,3 +4,9 @@ Cypress.Commands.add('login', (username, password) => {
   cy.get('#password').type(password);
   cy.get('#login-button').click();
 });
+
+// Adicionar produto ao carrinho
+Cypress.Commands.add('addProductToCart', () => {
+  // Selecione um produto e clique no botão "Add to cart"
+  cy.get('.inventory_item').first().find('button').click();
+});
