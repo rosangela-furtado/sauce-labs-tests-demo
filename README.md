@@ -43,6 +43,7 @@ Antes de começar, certifique-se de que você possui os seguintes softwares inst
    ```
 
 2. Na interface que será aberta, escolha o navegador preferido.
+
 3. Selecione o arquivo de teste desejado, por exemplo, `removerDoCarrinho.cy.js`. ✅
 
 ### ⚙️ Modo Headless
@@ -55,6 +56,7 @@ Antes de começar, certifique-se de que você possui os seguintes softwares inst
 2. Para rodar um teste específico:
    ```bash
    npx cypress run --spec "cypress/e2e/removerDoCarrinho.cy.js"
+
    ```
 
 ---
@@ -63,6 +65,7 @@ Antes de começar, certifique-se de que você possui os seguintes softwares inst
 
 📂 **cypress/e2e/**  
 Contém os arquivos de testes, como `removerDoCarrinho.cy.js`.
+
 
 📂 **cypress/fixtures/**  
 Inclui dados fictícios utilizados nos testes.
@@ -84,5 +87,6 @@ Armazena configurações e comandos personalizados.
 ## 💡 Suporte
 
 Dúvidas? Explore a [documentação oficial do Cypress](https://docs.cypress.io/). ✨
+
 
 **Boa sorte e bons testes!** 🧪
