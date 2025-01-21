@@ -18,7 +18,7 @@ Antes de começar, certifique-se de que você possui os seguintes softwares inst
 
 1. Clone este repositório para sua máquina local:
    ```bash
-   git clone https://github.com/seu-usuario/sauce-labs-demo-tests.git
+   git clone https://github.com/rosangela-furtado/sauce-labs-tests-demo
    ```
 
 2. Navegue até o diretório do projeto:
