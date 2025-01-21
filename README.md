@@ -18,12 +18,12 @@ Antes de começar, certifique-se de que você possui os seguintes softwares inst
 
 1. Clone este repositório para sua máquina local:
    ```bash
-   git clone <URL_DO_REPOSITORIO>
+   git clone https://github.com/seu-usuario/sauce-labs-demo-tests.git
    ```
 
 2. Navegue até o diretório do projeto:
    ```bash
-   cd <NOME_DO_DIRETORIO>
+   cd sauce-labs-tests-demo
    ```
 
 3. Instale as dependências necessárias:
@@ -81,13 +81,6 @@ Armazena configurações e comandos personalizados.
 1. Execute os testes no Cypress:
    ```bash
    npx cypress run --env allure=true
-
-### Como visualizar o Relatório 👀:
-2. Gere e visualize o relatório com o Allure:
-   ```bash
-   allure serve cypress/allure-results
-
-3. O Allure será aberto automaticamente no navegador, permitindo visualizar os detalhes dos testes. 📖
 
 ---
 
