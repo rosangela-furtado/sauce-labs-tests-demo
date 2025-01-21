@@ -79,12 +79,6 @@ Armazena configurações e comandos personalizados.
    ```bash
    npx cypress run --env allure=true
 
-### Como visualizar o Relatório 👀:
-2. Gere e visualize o relatório com o Allure:
-   ```bash
-   allure serve cypress/allure-results
-
-3. O Allure será aberto automaticamente no navegador, permitindo visualizar os detalhes dos testes. 📖
 ---
 
 ## 💡 Suporte
