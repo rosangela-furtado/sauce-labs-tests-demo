@@ -43,7 +43,7 @@ Antes de começar, certifique-se de que você possui os seguintes softwares inst
    ```
 
 2. Na interface que será aberta, escolha o navegador preferido.
-3. Selecione o arquivo de teste desejado, por exemplo, `removeCart.cy.js`. ✅
+3. Selecione o arquivo de teste desejado, por exemplo, `removerDoCarrinho.cy.js`. ✅
 
 ### ⚙️ Modo Headless
 
@@ -54,7 +54,7 @@ Antes de começar, certifique-se de que você possui os seguintes softwares inst
 
 2. Para rodar um teste específico:
    ```bash
-   npx cypress run --spec "cypress/e2e/removeCart.cy.js"
+   npx cypress run --spec "cypress/e2e/removerDoCarrinho.cy.js"
    ```
 
 ---
@@ -62,7 +62,7 @@ Antes de começar, certifique-se de que você possui os seguintes softwares inst
 ## 🗂️ Estrutura de Arquivos
 
 📂 **cypress/e2e/**  
-Contém os arquivos de testes, como `removeCart.cy.js`.
+Contém os arquivos de testes, como `removerDoCarrinho.cy.js`.
 
 📂 **cypress/fixtures/**  
 Inclui dados fictícios utilizados nos testes.
@@ -72,14 +72,23 @@ Armazena configurações e comandos personalizados.
 
 ---
 
-## 📊 Relatórios de Testes
+## 🚀 Relatórios de Testes com Allure
 
-Se configurado, relatórios serão gerados automaticamente na pasta `cypress/reports/` após a execução dos testes em modo headless. 📈
+### Como Gerar o Relatório 🛠️:
+1. Execute os testes no Cypress:
+   ```bash
+   npx cypress run --env allure=true
 
+### Como visualizar o Relatório 👀:
+2. Gere e visualize o relatório com o Allure:
+   ```bash
+   allure serve cypress/allure-results
+
+3. O Allure será aberto automaticamente no navegador, permitindo visualizar os detalhes dos testes. 📖
 ---
 
 ## 💡 Suporte
 
-Dúvidas? Problemas? Entre em contato com o mantenedor do repositório ou explore a [documentação oficial do Cypress](https://docs.cypress.io/). ✨
+Dúvidas? Explore a [documentação oficial do Cypress](https://docs.cypress.io/). ✨
 
 **Boa sorte e bons testes!** 🧪
